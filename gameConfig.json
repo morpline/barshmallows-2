@@ -1,0 +1,20 @@
+{
+    "difficulty":0,
+    "players":[
+        {
+            "name":"Morpline",
+            "username":"morpline",
+            "password":"morpline",
+            "key":"Create a unique key for each user. This will be used by the browser to authenticate."
+        },
+        {
+            "name":"Test",
+            "username":"",
+            "password":"",
+            "key":"key"
+        }
+    ],
+    "addNewPlayersAfterCreation":false,
+    "saveFile":"save1",
+    "timeZone":"+0700"
+}

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: lopolyJank;
+    src: url(./Untitled2.woff);
+  }
+
+* {
+    font-family: monospace;
+}
+.jank {
+    font-family: lopolyJank;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+header div {
+    padding: 10px 20px;
+}
+
+#dropdown {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 30px;
+    transition: 0.5s;
+}
+#dropdown:hover {
+    height: 180px;
+}
+
+.username {
+    /* color: blue; */
+    background-color: #3945fa;
+}
+
+.itemName {
+    /* color: green; */
+    background-color: #11fa2a;
+}
+
+.npc {
+    background-color: #fa3f30;
+}
+
+.barshmallowsId {
+    background-color: #e02afd;
+}
