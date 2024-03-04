@@ -3,39 +3,3 @@ GET http://localhost:203/api/login?username=morpline&password=morpline HTTP/1.1
 
 ### get tooele tech route
 GET http://localhost:203/api/login?username=&password= HTTP/1.1
-
-### get the root path /
-GET http://localhost:203/ HTTP/1.1
-
-### get all students
-GET http://localhost:203/students HTTP/1.1
-
-### get one student
-GET http://localhost:203/students/644a9ff67da76b36ab7ef945 HTTP/1.1
-
-### create a student
-POST http://localhost:203/students HTTP/1.1
-Content-Type: application/json
-
-{
-    "firstName": "Bob",
-    "lastName": "Beans",
-    "email": "mr.bean@killer.com",
-    "age": 21,
-    "currentCollege": "Assassin's Academy"
-}
-
-### update a student
-PUT http://localhost:203/students/644ac23e76c0f8272edc796a HTTP/1.1
-Content-Type: application/json
-
-{
-    "firstName": "Bill",
-    "lastName": "Reeves",
-    "email": "bowser@killer.com",
-    "age": 34,
-    "currentCollege": "Assassin's Academy"
-}
-
-### delete a student
-DELETE http://localhost:203/students/644aca3aace4b78b35735349 HTTP/1.1
